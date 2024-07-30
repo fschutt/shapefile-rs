@@ -13,7 +13,7 @@ edition = "2021"
 
 [dependencies]
 byteorder = "1.2.7"
-dbase = { git = "https://github.com/tmontaigu/dbase-rs", rev = "d0a06a6006cbd3f75bccef86cc21614063759b54" }
+dbase = { git = "https://github.com/fschutt/dbase-rs", default-features = false, rev = "e76b8aa74e97febc07a4eac39868d727bfccfa41" }
 geo-types = {version = ">=0.4.0, <0.8.0", optional = true}
 
 
